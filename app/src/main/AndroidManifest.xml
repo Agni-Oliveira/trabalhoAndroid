@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laboratorio.ciclodevida">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Principal" />
+        <activity android:name=".Calculadora" />
+        <activity android:name=".ListMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Q01T01" />
+        <activity android:name=".Q01T02" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Q06T01" />
+        <activity android:name=".Q06T02" />
+        <activity android:name=".Q02T01" />
+        <activity android:name=".Q02T02" />
+        <activity android:name=".Q03T01" />
+        <activity android:name=".Q03T02" />
+        <activity android:name=".Q04T01" />
+        <activity android:name=".Q04T02" />
+        <activity android:name=".Q05T01" />
+        <activity android:name=".Q05T02" />
+        <activity android:name=".Q07T01" />
+        <activity android:name=".Q07T02" />
+        <activity android:name=".Q08T01" />
+        <activity android:name=".Q08T02" />
+        <activity android:name=".Q09T01" />
+        <activity android:name=".Q09T02" />
+        <activity android:name=".Q04T03" />
+        <activity android:name=".Q10T01" />
+        <activity android:name=".Q11T02" />
+        <activity android:name=".Q12T01" />
+        <activity android:name=".Q11T01" />
+        <activity android:name=".Q13T01" />
+        <activity android:name=".Q14T01" />
+        <activity android:name=".Q15T01" />
+        <activity android:name=".Q16T01" />
+        <activity android:name=".Q10T02" />
+        <activity android:name=".Q12T02" />
+        <activity android:name=".Q13T02" />
+        <activity android:name=".Q14T02" />
+        <activity android:name=".Q15T02" />
+        <activity android:name=".Q16T02"></activity>
+    </application>
+
+</manifest>
